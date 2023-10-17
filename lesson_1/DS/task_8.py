@@ -5,4 +5,13 @@
 # 3 2 4 -> yes
 # 3 2 1 -> no
 
-4 должно быть кратно 2 или 3п
+# 4 должно быть кратно 2 или 3п
+
+n = 385916
+n = str(n)
+sum1=int(n[0])+int(n[1])+int(n[2])
+sum2=int(n[3])+int(n[4])+int(n[5])
+if sum1==sum2:
+  print('yes')
+else:
+  print('no')
