@@ -5,3 +5,18 @@
 # произведение P. Помогите Кате отгадать задуманные Петей числа.
 # 4 4 -> 2 2
 # 5 6 -> 2 3
+# 17 72 = 8 9
+
+import os
+os.system("clear")
+
+s = 17
+p = 72
+
+for i in range(2, p):
+    if p%i==0:
+        if p/i<s:
+            sum=int(p/i)
+            if sum<10:
+                print(i,sum)
+                break
