@@ -4,5 +4,17 @@
 # A = 3; B = 5 -> 243 (3⁵)
 # A = 2; B = 3 -> 8
 
-В степени 0 равно 1
+# В степени 0 равно 1
 
+def f(a,b):
+    sum=0
+    if b==1:
+        return a
+    else:
+        sum=a*f(a,b-1)
+    return sum   
+
+
+# a = 2
+# b = 35
+print(f(a=3, b=5))
