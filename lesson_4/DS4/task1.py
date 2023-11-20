@@ -14,15 +14,7 @@ var2 = '10 20 30 40 50'
 var3 = '10 20 30 40 50'
 # На выходе:
 # 3 5
-# m1=[]
-# m2=[]
-# j=[]
-# for i in var2.split():
-#     m1.append(i)
- 
-# for i in var3:
-#     m2.append(i)
-# print(m1,m2)
+
 mn=(set(var2.split())&set(var3.split()))
 sortmn=[]
 temp=0
